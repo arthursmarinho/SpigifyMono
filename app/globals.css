@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.animated-dotted-background {
+  background-color: #f1f1f1;
+  background-image: radial-gradient(#4a5568 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
